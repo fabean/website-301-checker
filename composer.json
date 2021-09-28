@@ -1,0 +1,27 @@
+{
+    "name": "fabean/website_scraper",
+    "description": "Scrape data off lots of websites.",
+    "authors": [
+        {
+            "name": "Josh Fabean",
+            "email": "hello@joshfabean.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0",
+        "phpunit/php-timer": "^1.0",
+        "imangazaliev/didom": "dev-master",
+        "curl/curl": "dev-master",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        },
+        "classname": {
+            "PHP_Timer": "src/"
+        }
+    }
+}
